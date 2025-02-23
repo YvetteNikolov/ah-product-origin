@@ -1,6 +1,8 @@
-# 🌍 Albert Heijn Product-herkomst Chrome Extensie
+# Albert Heijn productherkomst-extensie
 
-Deze Chrome-extensie informeert je over de herkomst van producten op de **Albert Heijn**-website. In het kader van de huidige politieke spanningen tussen de Verenigde Staten en Europa, is er een groeiende behoefte aan transparantie over de herkomst van producten. Deze Chrome-extensie helpt je bewuste keuzes te maken door op de **Albert Heijn**-website het land van herkomst en de producent van elk product te tonen. Zo kun je makkelijker kiezen voor Nederlandse of Europese producten en mogelijk de afhankelijkheid van Amerikaanse merken verminderen.
+Toont de herkomst van producten op de Albert Heijn-website.
+
+In het kader van de huidige politieke spanningen tussen de Verenigde Staten en Europa, er een groeiende behoefte aan informatie over de herkomst van producten. Deze extensie helpt je bewuste keuzes te maken door op de Albert Heijn-website het land van herkomst van de producent te tonen. Zo kun je makkelijker kiezen voor Nederlandse of Europese producten en mogelijk de afhankelijkheid van Amerikaanse merken verminderen.
 
 ## 🔧 Functionaliteiten
 
