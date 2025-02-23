@@ -1,15 +1,20 @@
 # Albert Heijn productherkomst-extensie
 
-Toont de herkomst van producten op de Albert Heijn-website.
+Work in progress. Toont de herkomst van de producenten op de Albert Heijn-website.
 
-In het kader van de huidige politieke spanningen tussen de Verenigde Staten en Europa, er een groeiende behoefte aan informatie over de herkomst van producten. Deze extensie helpt je bewuste keuzes te maken door op de Albert Heijn-website het land van herkomst van de producent te tonen. Zo kun je makkelijker kiezen voor Nederlandse of Europese producten en mogelijk de afhankelijkheid van Amerikaanse merken verminderen.
+## Screenshot
+
+![Screenshot van de Albert Heijn overzichtspagina](/screenshot.png?raw=true)
+
+## Achtergrond
+
+In het kader van de huidige spanningen tussen de Verenigde Staten en Europa, is er een groeiende behoefte aan informatie over de herkomst van producenten. Deze extensie helpt bewuste keuzes te maken door op de Albert Heijn-website het land van herkomst van de producent te tonen. Zo kun je makkelijker kiezen voor Nederlandse of Europese producenten en mogelijk de afhankelijkheid van Amerikaanse merken verminderen.
 
 ## 🔧 Functionaliteiten
 
 - ✅ Detecteert automatisch producten op de Albert Heijn-website.  
-- 🌍 Toont het land van herkomst en de producent van het product.  
-- 🇳🇱 Highlight producten uit Nederland of Europa.
-- ⚙️ Instellingenpagina voor persoonlijke voorkeuren (bijv. prioriteit geven aan Nederlandse producten).  
+- 🌍 Toont het land van herkomst van de producent van het product.  
+- ⚙️ TODO: Instellingenpagina voor persoonlijke voorkeuren (bijv. prioriteit geven aan Nederlandse producten).  
 
 ## 📦 Installatie
 
