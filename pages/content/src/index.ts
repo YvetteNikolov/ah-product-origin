@@ -1,5 +1,5 @@
 const addCountryFlags = () => {
-  const images = document.querySelectorAll('[data-testhook="product-card"]');
+  const images = document.querySelectorAll('[data-testhook="product-image"]');
 
   images.forEach(image => {
     // Prevent adding the flag multiple times
@@ -15,10 +15,10 @@ const addCountryFlags = () => {
     flagIcon.alt = `${country} flag`;
     flagIcon.classList.add('product-flag');
     flagIcon.style.position = 'absolute';
-    flagIcon.style.top = '5px';
-    flagIcon.style.right = '5px';
+    flagIcon.style.top = '0px';
+    flagIcon.style.right = '1px';
     flagIcon.style.width = '42px';
-    flagIcon.style.height = '42px';
+    flagIcon.style.height = '30px';
     flagIcon.style.filter = 'drop-shadow(0 0 1px rgba(0, 0, 0, 0.25))';
 
     // Ensure the parent is positioned relatively for absolute flag positioning
