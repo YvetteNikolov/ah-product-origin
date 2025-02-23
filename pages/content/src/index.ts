@@ -1,6 +1,38 @@
-import { sampleFunction } from '@src/sampleFunction';
+const addCountryFlags = () => {
+  const images = document.querySelectorAll('[data-testhook="product-card"]');
 
-console.log('content script loaded');
+  images.forEach(image => {
+    // Prevent adding the flag multiple times
+    if (image.parentElement?.querySelector('.product-flag')) return;
 
-// Shows how to call a function defined in another module
-sampleFunction();
+    // Replace this later
+    const country = 'US';
+    const flagUrl = chrome.runtime.getURL(`content/flags/us.svg`);
+
+    // Create icon
+    const flagIcon = document.createElement('img');
+    flagIcon.src = flagUrl;
+    flagIcon.alt = `${country} flag`;
+    flagIcon.classList.add('product-flag');
+    flagIcon.style.position = 'absolute';
+    flagIcon.style.top = '5px';
+    flagIcon.style.right = '5px';
+    flagIcon.style.width = '42px';
+    flagIcon.style.height = '42px';
+    flagIcon.style.filter = 'drop-shadow(0 0 1px rgba(0, 0, 0, 0.25))';
+
+    // Ensure the parent is positioned relatively for absolute flag positioning
+    const parent = image.parentElement;
+
+    if (parent) {
+      parent.style.position = 'relative';
+      parent.appendChild(flagIcon);
+    }
+  });
+};
+
+window.addEventListener('load', addCountryFlags);
+
+// If products are loaded dynamically (like infinite scroll)
+const observer = new MutationObserver(addCountryFlags);
+observer.observe(document.body, { childList: true, subtree: true });

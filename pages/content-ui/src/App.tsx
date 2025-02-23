@@ -5,7 +5,7 @@ import { t } from '@extension/i18n';
 
 export default function App() {
   useEffect(() => {
-    console.log('content ui loaded');
+    console.error('content ui loaded');
   }, []);
 
   return (
