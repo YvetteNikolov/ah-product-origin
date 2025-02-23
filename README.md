@@ -1,41 +1,41 @@
-# Albert Heijn productherkomst-extensie
+# Albert Heijn Chrome Extension
 
-Work in progress. Toont de herkomst van de producenten op de Albert Heijn-website.
+Work in progress. Shows the origin of product-producers on the Albert Heijn website.
 
 ## Screenshot
 
-![Screenshot van de Albert Heijn overzichtspagina](/screenshot.png?raw=true)
+![Screenshot of the Albert Heijn overview page](/screenshot.png?raw=true)
 
-## Achtergrond
+## Background
 
-In het kader van de huidige spanningen tussen de Verenigde Staten en Europa, is er een groeiende behoefte aan informatie over de herkomst van producenten. Deze extensie helpt bewuste keuzes te maken door op de Albert Heijn-website het land van herkomst van de producent te tonen. Zo kun je makkelijker kiezen voor Nederlandse of Europese producenten en mogelijk de afhankelijkheid van Amerikaanse merken verminderen.
+In light of the current tensions between the United States and Europe, there is a growing need for information about the origin of products and their producers. This extension helps make informed choices by displaying the country of origin of the producer on the Albert Heijn website. This way, you can more easily choose Dutch or European producers and potentially reduce reliance on American brands.
 
-## 🔧 Functionaliteiten
+## 🔧 Features
 
-- ✅ Detecteert automatisch producten op de Albert Heijn-website.  
-- 🌍 Toont het land van herkomst van de producent van het product.  
-- ⚙️ TODO: Instellingenpagina voor persoonlijke voorkeuren (bijv. prioriteit geven aan Nederlandse producten).  
+- ✅ Automatically detects products on the Albert Heijn website.  
+- 🌍 Displays the country of origin of the product's producer.  
+- ⚙️ TODO: Settings page for personal preferences (e.g., prioritize Dutch products).  
 
-## 📦 Installatie
+## 📦 Installation
 
-1. Download of kloon deze repository:
+1. Download or clone this repository:
 
-   ```bash
-   git clone https://github.com/jouw-gebruikersnaam/ah-product-herkomst-extensie.git
-   ```
+   \```bash
+   git clone <https://github.com/your-username/ah-product-origin-extension.git>
+   \```
 
-2. Open Google Chrome en ga naar: `chrome://extensions/`.
-3. Zet Developer mode aan (rechtsboven).
-4. Klik op *Load unpacked* en selecteer de `dist` map.
+2. Open Google Chrome and go to: `chrome://extensions/`.
+3. Enable Developer mode (top right).
+4. Click *Load unpacked* and select the `dist` folder.
 
-De extensie wordt nu toegevoegd en is direct actief op de Albert Heijn-website.
+The extension will now be added and is active on the Albert Heijn website.
 
-## 🛠️ Technologieën
+## 🛠️ Build with
 
 - <https://github.com/Jonghakseo/chrome-extension-boilerplate-react-vite>  
 
-## 🔒 Privacybeleid
+## 🔒 Privacy Policy
 
-Deze extensie verzamelt of slaat geen persoonlijke gegevens op. Alle productinformatie wordt lokaal verwerkt.
+This extension does not collect or store personal data. All product information is processed locally.
 
-Gemaakt met ❤️ voor bewust winkelen.
+Made with ❤️ for conscious shopping.
